@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-10T18:28:39Z" name="eshop" finished-at="2021-02-10T18:30:19Z" duration-ms="99376">
+    <groups>
+    </groups>
+    <test started-at="2021-02-10T18:28:39Z" name="ShoppingApp Test" finished-at="2021-02-10T18:30:19Z" duration-ms="99376">
+      <class name="testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_LoginTest_001@7e057f43]" started-at="2021-02-10T18:28:39Z" name="setup" finished-at="2021-02-10T18:28:52Z" duration-ms="13179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:testCases.TC_LoginTest_001@7e057f43]" started-at="2021-02-10T18:28:52Z" name="loginTest" finished-at="2021-02-10T18:30:19Z" duration-ms="86157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- testCases.TC_LoginTest_001 -->
+    </test> <!-- ShoppingApp Test -->
+  </suite> <!-- eshop -->
+</testng-results>
